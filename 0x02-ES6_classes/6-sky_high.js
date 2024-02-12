@@ -15,4 +15,8 @@ class SkyHighBuilding extends Building {
   }
 }
 
+<<<<<<< HEAD
 export default SkyHighBuilding;
+=======
+export default SkyHighBuilding;
+>>>>>>> alx-frontend-javascript/main

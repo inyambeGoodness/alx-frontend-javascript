@@ -1,4 +1,5 @@
 export default function createReportObject(employeesList) {
+<<<<<<< HEAD
   return {
     allEmployees: {
       ...employeesList,
@@ -8,3 +9,12 @@ export default function createReportObject(employeesList) {
     },
   };
 }
+=======
+    return {
+      allEmployees: {
+        ...employeesList,
+      },
+      getNumberOfDepartments: (employeesList) => Object.keys(employeesList).length,
+    };
+  }
+>>>>>>> alx-frontend-javascript/main

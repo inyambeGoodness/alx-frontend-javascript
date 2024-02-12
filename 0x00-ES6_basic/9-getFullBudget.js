@@ -4,6 +4,7 @@ export default function getFullBudgetObject(income, gdp, capita) {
   const budget = getBudgetObject(income, gdp, capita);
   const fullBudget = {
     ...budget,
+<<<<<<< HEAD
     getIncomeInDollars(income) {
       return `$${income}`;
     },
@@ -14,3 +15,11 @@ export default function getFullBudgetObject(income, gdp, capita) {
 
   return fullBudget;
 }
+=======
+    getIncomeInDollars: (income) => `$${income}`,
+    getIncomeInEuros: (income) => `${income} euros`,
+  };
+
+  return fullBudget;
+}
+>>>>>>> alx-frontend-javascript/main

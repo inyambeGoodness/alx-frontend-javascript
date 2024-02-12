@@ -47,4 +47,8 @@ export default class Pricing {
 
     return amount * conversionRate;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> alx-frontend-javascript/main

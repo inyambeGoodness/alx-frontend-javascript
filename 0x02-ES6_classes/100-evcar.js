@@ -11,4 +11,8 @@ class EVCar extends Car {
   }
 }
 
+<<<<<<< HEAD
 export default EVCar;
+=======
+export default EVCar;
+>>>>>>> alx-frontend-javascript/main
